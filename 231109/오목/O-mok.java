@@ -37,9 +37,12 @@ public class Main {
                     }
                     System.out.println(value);
                     System.out.println((i+1) + " " + (j+1));
+                    return;
                 }
             }
         }
+
+        System.out.println(0);
     }
 
 
